@@ -1,0 +1,9 @@
+kind: Kustomization
+
+bases:
+- ../../base
+
+nameSuffix:
+ -emea
+
+resources:
