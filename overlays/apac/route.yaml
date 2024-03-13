@@ -5,13 +5,9 @@ metadata:
     app: todonodejs
     name: frontend
   name: frontend-apac
-  namespace: mysql
 spec:
   host: todo.apps.ocp4.exmaple.com
-  port:
-    targetPort: 8080
-  tls:
-    termination: edge
+  path: "/todo"
   to:
     kind: Service
     name: frontend-apac
