@@ -5,3 +5,9 @@ bases:
 
 nameSuffix: 
  -apac
+
+images:
+ - newName: registry.redhat.io/rhel8/mysql-80
+   name: mysql
+   newTag: 1-152
+  
